@@ -148,15 +148,18 @@ p {
   background-color: rgba(32, 0, 162, 1);
   border: none;
   padding: 15px 32px;
+  color: white;
   text-align: center;
   display: inline-block;
   font-size: 16px;
   border-radius: 12px;
-  transition: background-color 2s;
+  transition: background-color 2s, color 2s;
   transition-delay: 0.5s;
 }
 
 .button:hover {
+  
+  color: black;
   background-color: rgba(126, 232, 137, 1);
   -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
   animation: heartbeat 1.5s ease-in-out infinite both;
